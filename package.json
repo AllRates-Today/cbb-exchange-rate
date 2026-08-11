@@ -1,7 +1,7 @@
 {
   "name": "cbb-exchange-rate",
-  "version": "1.0.1",
-  "description": "Official Central Bank of Bahrain (Bahrain) daily exchange rates — ~33 currencies vs BHD, history since 2016. Zero-dependency Node.js/TypeScript client.",
+  "version": "1.1.2",
+  "description": "Official Central Bank of Bahrain (Bahrain) daily exchange rates — 33 currencies vs BHD, history since 2016. Zero-dependency Node.js/TypeScript client.",
   "keywords": [
     "cbb",
     "central",
