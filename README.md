@@ -85,7 +85,7 @@ const pair = await getRate('USD', 'BHD', { apiKey: 'art_live_...' });
 {
   bank: 'cbb',
   name: 'Central Bank of Bahrain',
-  rate_date: '2026-09-09',   // Central Bank of Bahrain's own publication date
+  rate_date: '2026-09-25',   // Central Bank of Bahrain's own publication date
   source: 'USD',
   target: 'BHD',
   rate: 0.376081,
@@ -113,7 +113,7 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'cbb',
   name: 'Central Bank of Bahrain',
-  rate_date: '2026-09-09',
+  rate_date: '2026-09-25',
   rates: [
     { "base": "USD", "quote": "BHD", "type": "reference", "value": 0.376081 },
     // … the rest of the published table (33 currencies vs BHD)
@@ -155,7 +155,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'cbb-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'BHD', from: '2026-01-01', to: '2026-09-09' },
+  { source: 'USD', target: 'BHD', from: '2026-01-01', to: '2026-09-25' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -168,11 +168,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'BHD',
   from: '2026-01-01',
-  to: '2026-09-09',
+  to: '2026-09-25',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-09-09', rate: 0.376081, rate_type: 'reference', derived: false, method: 'published' },
+    { date: '2026-09-25', rate: 0.376081, rate_type: 'reference', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
