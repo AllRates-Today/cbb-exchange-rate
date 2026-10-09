@@ -4,6 +4,8 @@
 [![license](https://img.shields.io/npm/l/cbb-exchange-rate.svg)](https://github.com/AllRates-Today/cbb-exchange-rate/blob/main/LICENSE)
 [![zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](https://www.npmjs.com/package/cbb-exchange-rate)
 [![TypeScript](https://img.shields.io/badge/TypeScript-types%20included-3178C6.svg)](https://www.typescriptlang.org/)
+[![USD/BHD today](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fcbb%3Fsource%3DUSD%26target%3DBHD&query=%24.rate&label=USD%2FBHD%20published%20by%20Central%20Bank%20of%20Bahrain&color=0A7E8C&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/cbb/)
+[![rate date](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fcbb%3Fsource%3DUSD%26target%3DBHD&query=%24.rate_date&label=rate%20date&color=555&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/cbb/)
 
 **Official Central Bank of Bahrain (Bahrain) daily exchange rates for Node.js and TypeScript. The published central bank rates behind tax filings, customs valuations, audits, and compliant invoicing — not market estimates, but the numbers Central Bank of Bahrain itself prints, every business day.**
 
@@ -32,6 +34,52 @@ console.log(r.rate_date, r.rates.length); // the central bank's latest published
 ```
 
 The open endpoint serves the *latest* table only and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables, history, and CSV/XML/Excel output.
+
+## 📈 Latest published table
+
+Today's full Central Bank of Bahrain table, straight from the central bank's latest publication. On GitHub it is refreshed by [a daily Action](.github/workflows/daily-table.yml) that reads the keyless endpoint above and commits only when the central bank publishes a new table; the copy on npm is as of the package's publish date.
+
+<!-- daily-table:start -->
+Published **2026-10-08** by Central Bank of Bahrain — 33 rates. Updated 2026-10-08.
+
+| Base | Quote | Type | Rate |
+| --- | --- | --- | ---: |
+| AED | BHD | reference | 0.102389 |
+| ANG | BHD | reference | 0.210101 |
+| AUD | BHD | reference | 0.26179 |
+| BDT | BHD | reference | 0.003062 |
+| CAD | BHD | reference | 0.263759 |
+| CHF | BHD | reference | 0.451451 |
+| CNY | BHD | reference | 0.056078 |
+| EGP | BHD | reference | 0.007178 |
+| EUR | BHD | reference | 0.42123 |
+| GBP | BHD | reference | 0.496935 |
+| HKD | BHD | reference | 0.047924 |
+| IDR | BHD | reference | 0.000021 |
+| ILS | BHD | reference | 0.122538 |
+| INR | BHD | reference | 0.003886 |
+| JOD | BHD | reference | 0.531076 |
+| JPY | BHD | reference | 0.002379 |
+| KWD | BHD | reference | 1.21166 |
+| LBP | BHD | reference | 0.000004 |
+| LKR | BHD | reference | 0.001137 |
+| MAD | BHD | reference | 0.037739 |
+| NOK | BHD | reference | 0.039287 |
+| NPR | BHD | reference | 0.002431 |
+| NZD | BHD | reference | 0.210605 |
+| OMR | BHD | reference | 0.976809 |
+| PHP | BHD | reference | 0.005992 |
+| PKR | BHD | reference | 0.001357 |
+| QAR | BHD | reference | 0.103169 |
+| SAR | BHD | reference | 0.100175 |
+| SGD | BHD | reference | 0.293859 |
+| THB | BHD | reference | 0.011183 |
+| TND | BHD | reference | 0.125308 |
+| TRY | BHD | reference | 0.007642 |
+| USD | BHD | reference | 0.376081 |
+
+Source: [Official rates published by CBB, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/cbb/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
+<!-- daily-table:end -->
 
 ## 🔑 Get your API key
 
