@@ -40,42 +40,42 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 Today's full Central Bank of Bahrain table, straight from the central bank's latest publication. On GitHub it is refreshed by [a daily Action](.github/workflows/daily-table.yml) that reads the keyless endpoint above and commits only when the central bank publishes a new table; the copy on npm is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-09** by Central Bank of Bahrain — 33 rates. Updated 2026-10-10.
+Published **2026-10-12** by Central Bank of Bahrain — 33 rates. Updated 2026-10-12.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | BHD | reference | 0.102389 |
+| AED | BHD | reference | 0.102391 |
 | ANG | BHD | reference | 0.210101 |
-| AUD | BHD | reference | 0.26179 |
-| BDT | BHD | reference | 0.003062 |
-| CAD | BHD | reference | 0.263759 |
-| CHF | BHD | reference | 0.451451 |
-| CNY | BHD | reference | 0.056078 |
-| EGP | BHD | reference | 0.007178 |
-| EUR | BHD | reference | 0.42123 |
-| GBP | BHD | reference | 0.496935 |
+| AUD | BHD | reference | 0.262674 |
+| BDT | BHD | reference | 0.003065 |
+| CAD | BHD | reference | 0.263769 |
+| CHF | BHD | reference | 0.453137 |
+| CNY | BHD | reference | 0.056193 |
+| EGP | BHD | reference | 0.007182 |
+| EUR | BHD | reference | 0.421399 |
+| GBP | BHD | reference | 0.497913 |
 | HKD | BHD | reference | 0.047924 |
 | IDR | BHD | reference | 0.000021 |
-| ILS | BHD | reference | 0.122538 |
-| INR | BHD | reference | 0.003886 |
-| JOD | BHD | reference | 0.531076 |
-| JPY | BHD | reference | 0.002379 |
-| KWD | BHD | reference | 1.21166 |
+| ILS | BHD | reference | 0.122786 |
+| INR | BHD | reference | 0.003888 |
+| JOD | BHD | reference | 0.531113 |
+| JPY | BHD | reference | 0.002378 |
+| KWD | BHD | reference | 1.209439 |
 | LBP | BHD | reference | 0.000004 |
 | LKR | BHD | reference | 0.001137 |
-| MAD | BHD | reference | 0.037739 |
-| NOK | BHD | reference | 0.039287 |
-| NPR | BHD | reference | 0.002431 |
-| NZD | BHD | reference | 0.210605 |
+| MAD | BHD | reference | 0.038547 |
+| NOK | BHD | reference | 0.039342 |
+| NPR | BHD | reference | 0.00243 |
+| NZD | BHD | reference | 0.211132 |
 | OMR | BHD | reference | 0.976809 |
-| PHP | BHD | reference | 0.005992 |
+| PHP | BHD | reference | 0.005987 |
 | PKR | BHD | reference | 0.001357 |
-| QAR | BHD | reference | 0.103169 |
-| SAR | BHD | reference | 0.100175 |
-| SGD | BHD | reference | 0.293859 |
-| THB | BHD | reference | 0.011183 |
-| TND | BHD | reference | 0.125308 |
-| TRY | BHD | reference | 0.007642 |
+| QAR | BHD | reference | 0.103172 |
+| SAR | BHD | reference | 0.10014 |
+| SGD | BHD | reference | 0.293699 |
+| THB | BHD | reference | 0.011217 |
+| TND | BHD | reference | 0.125152 |
+| TRY | BHD | reference | 0.007622 |
 | USD | BHD | reference | 0.376081 |
 
 Source: [Official rates published by CBB, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/cbb/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
