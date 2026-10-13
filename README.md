@@ -42,41 +42,41 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-12** by Central Bank of Bahrain — 33 rates. Updated 2026-10-12.
+Published **2026-10-13** by Central Bank of Bahrain — 33 rates. Updated 2026-10-13.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | BHD | reference | 0.102391 |
+| AED | BHD | reference | 0.102389 |
 | ANG | BHD | reference | 0.210101 |
-| AUD | BHD | reference | 0.262674 |
-| BDT | BHD | reference | 0.003065 |
-| CAD | BHD | reference | 0.263769 |
-| CHF | BHD | reference | 0.453137 |
-| CNY | BHD | reference | 0.056193 |
-| EGP | BHD | reference | 0.007182 |
-| EUR | BHD | reference | 0.421399 |
-| GBP | BHD | reference | 0.497913 |
+| AUD | BHD | reference | 0.261602 |
+| BDT | BHD | reference | 0.003053 |
+| CAD | BHD | reference | 0.263353 |
+| CHF | BHD | reference | 0.450856 |
+| CNY | BHD | reference | 0.056184 |
+| EGP | BHD | reference | 0.007143 |
+| EUR | BHD | reference | 0.419688 |
+| GBP | BHD | reference | 0.496785 |
 | HKD | BHD | reference | 0.047924 |
 | IDR | BHD | reference | 0.000021 |
-| ILS | BHD | reference | 0.122786 |
-| INR | BHD | reference | 0.003888 |
-| JOD | BHD | reference | 0.531113 |
-| JPY | BHD | reference | 0.002378 |
-| KWD | BHD | reference | 1.209439 |
+| ILS | BHD | reference | 0.12217 |
+| INR | BHD | reference | 0.003926 |
+| JOD | BHD | reference | 0.530813 |
+| JPY | BHD | reference | 0.002373 |
+| KWD | BHD | reference | 1.207517 |
 | LBP | BHD | reference | 0.000004 |
 | LKR | BHD | reference | 0.001137 |
-| MAD | BHD | reference | 0.038547 |
-| NOK | BHD | reference | 0.039342 |
-| NPR | BHD | reference | 0.00243 |
-| NZD | BHD | reference | 0.211132 |
-| OMR | BHD | reference | 0.976809 |
-| PHP | BHD | reference | 0.005987 |
+| MAD | BHD | reference | 0.038688 |
+| NOK | BHD | reference | 0.039295 |
+| NPR | BHD | reference | 0.002447 |
+| NZD | BHD | reference | 0.210135 |
+| OMR | BHD | reference | 0.976796 |
+| PHP | BHD | reference | 0.005992 |
 | PKR | BHD | reference | 0.001357 |
-| QAR | BHD | reference | 0.103172 |
-| SAR | BHD | reference | 0.10014 |
-| SGD | BHD | reference | 0.293699 |
-| THB | BHD | reference | 0.011217 |
-| TND | BHD | reference | 0.125152 |
+| QAR | BHD | reference | 0.103177 |
+| SAR | BHD | reference | 0.100127 |
+| SGD | BHD | reference | 0.293618 |
+| THB | BHD | reference | 0.011181 |
+| TND | BHD | reference | 0.124822 |
 | TRY | BHD | reference | 0.007622 |
 | USD | BHD | reference | 0.376081 |
 
