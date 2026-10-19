@@ -33,52 +33,55 @@ const r = await fetch('https://allratestoday.com/api/open/central-bank/cbb').the
 console.log(r.rate_date, r.rates.length); // the central bank's latest published table, no key
 ```
 
-The open endpoint serves the *latest* table only and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables, history, and CSV/XML/Excel output.
+The open endpoint serves the *latest* table only (JSON by default; add `?format=csv`, `xml` or `xlsx` for a file) and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables and history.
 
 ## 📈 Latest published table
 
 [![Latest Central Bank of Bahrain table](https://allratestoday.com/api/open/central-bank/cbb/table.svg)](https://allratestoday.com/central-bank-rates-api/cbb/)
 
-The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
+The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-16** by Central Bank of Bahrain — 33 rates. Updated 2026-10-17.
+<details>
+<summary>Table as text: published 2026-10-19 by Central Bank of Bahrain — 33 rates. Updated 2026-10-19.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
 | AED | BHD | reference | 0.102389 |
 | ANG | BHD | reference | 0.210101 |
-| AUD | BHD | reference | 0.262505 |
-| BDT | BHD | reference | 0.003054 |
-| CAD | BHD | reference | 0.264622 |
-| CHF | BHD | reference | 0.452238 |
-| CNY | BHD | reference | 0.056163 |
-| EGP | BHD | reference | 0.007084 |
-| EUR | BHD | reference | 0.421079 |
-| GBP | BHD | reference | 0.497687 |
+| AUD | BHD | reference | 0.262166 |
+| BDT | BHD | reference | 0.003048 |
+| CAD | BHD | reference | 0.266394 |
+| CHF | BHD | reference | 0.456603 |
+| CNY | BHD | reference | 0.056245 |
+| EGP | BHD | reference | 0.007036 |
+| EUR | BHD | reference | 0.422283 |
+| GBP | BHD | reference | 0.501561 |
 | HKD | BHD | reference | 0.047922 |
 | IDR | BHD | reference | 0.000021 |
-| ILS | BHD | reference | 0.121285 |
-| INR | BHD | reference | 0.003952 |
+| ILS | BHD | reference | 0.120888 |
+| INR | BHD | reference | 0.003961 |
 | JOD | BHD | reference | 0.530514 |
-| JPY | BHD | reference | 0.002381 |
-| KWD | BHD | reference | 1.206742 |
+| JPY | BHD | reference | 0.002383 |
+| KWD | BHD | reference | 1.209848 |
 | LBP | BHD | reference | 0.000004 |
-| LKR | BHD | reference | 0.001137 |
-| MAD | BHD | reference | 0.038207 |
-| NOK | BHD | reference | 0.03961 |
-| NPR | BHD | reference | 0.002471 |
-| NZD | BHD | reference | 0.210982 |
-| OMR | BHD | reference | 0.976796 |
-| PHP | BHD | reference | 0.005981 |
-| PKR | BHD | reference | 0.001356 |
-| QAR | BHD | reference | 0.103157 |
-| SAR | BHD | reference | 0.100177 |
-| SGD | BHD | reference | 0.292978 |
-| THB | BHD | reference | 0.011188 |
-| TND | BHD | reference | 0.124898 |
-| TRY | BHD | reference | 0.007611 |
+| LKR | BHD | reference | 0.001135 |
+| MAD | BHD | reference | 0.038583 |
+| NOK | BHD | reference | 0.039883 |
+| NPR | BHD | reference | 0.002476 |
+| NZD | BHD | reference | 0.212843 |
+| OMR | BHD | reference | 0.976784 |
+| PHP | BHD | reference | 0.005971 |
+| PKR | BHD | reference | 0.001358 |
+| QAR | BHD | reference | 0.103153 |
+| SAR | BHD | reference | 0.100215 |
+| SGD | BHD | reference | 0.293986 |
+| THB | BHD | reference | 0.011255 |
+| TND | BHD | reference | 0.125862 |
+| TRY | BHD | reference | 0.007593 |
 | USD | BHD | reference | 0.376081 |
+
+</details>
 
 Source: [Official rates published by CBB, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/cbb/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
@@ -351,7 +354,8 @@ Need the whole archive rather than an API call? The same published tables are mi
 - [All central bank sources](https://allratestoday.com/central-bank-rates-api/)
 - [Package docs on the site](https://allratestoday.com/docs/sdk/cbb-exchange-rate/) · [ERP integration guides](https://allratestoday.com/docs/integrations/)
 - [API documentation](https://allratestoday.com/docs/#central-bank) · [Interactive reference](https://allratestoday.com/api-reference/) · [Methodology](https://allratestoday.com/official-rates-methodology/)
-- [Register (free)](https://allratestoday.com/register) · [Pricing](https://allratestoday.com/pricing/)
+- [Register (Free)](https://allratestoday.com/register) · [Dashboard](https://allratestoday.com/profile) · [Pricing](https://allratestoday.com/pricing/)
+- [Status](https://allratestoday.com/status)
 - [GitHub](https://github.com/AllRates-Today/cbb-exchange-rate)
 
 ## 📜 License
