@@ -47,42 +47,42 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-27 by Central Bank of Bahrain — 33 rates. Updated 2026-10-27.</summary>
+<summary>Table as text: published 2026-10-28 by Central Bank of Bahrain — 33 rates. Updated 2026-10-28.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
 | AED | BHD | reference | 0.102391 |
 | ANG | BHD | reference | 0.210101 |
-| AUD | BHD | reference | 0.263859 |
-| BDT | BHD | reference | 0.003039 |
-| CAD | BHD | reference | 0.268294 |
-| CHF | BHD | reference | 0.454287 |
-| CNY | BHD | reference | 0.0564 |
-| EGP | BHD | reference | 0.006684 |
-| EUR | BHD | reference | 0.420139 |
-| GBP | BHD | reference | 0.501805 |
-| HKD | BHD | reference | 0.047942 |
+| AUD | BHD | reference | 0.264554 |
+| BDT | BHD | reference | 0.003035 |
+| CAD | BHD | reference | 0.267531 |
+| CHF | BHD | reference | 0.45341 |
+| CNY | BHD | reference | 0.056407 |
+| EGP | BHD | reference | 0.006701 |
+| EUR | BHD | reference | 0.418334 |
+| GBP | BHD | reference | 0.500244 |
+| HKD | BHD | reference | 0.047943 |
 | IDR | BHD | reference | 0.000021 |
-| ILS | BHD | reference | 0.122067 |
-| INR | BHD | reference | 0.003951 |
-| JOD | BHD | reference | 0.530476 |
-| JPY | BHD | reference | 0.002386 |
-| KWD | BHD | reference | 1.209848 |
+| ILS | BHD | reference | 0.123075 |
+| INR | BHD | reference | 0.003954 |
+| JOD | BHD | reference | 0.530439 |
+| JPY | BHD | reference | 0.002382 |
+| KWD | BHD | reference | 1.208429 |
 | LBP | BHD | reference | 0.000004 |
 | LKR | BHD | reference | 0.001132 |
-| MAD | BHD | reference | 0.038212 |
-| NOK | BHD | reference | 0.040367 |
-| NPR | BHD | reference | 0.00247 |
-| NZD | BHD | reference | 0.214065 |
-| OMR | BHD | reference | 0.976758 |
-| PHP | BHD | reference | 0.00588 |
-| PKR | BHD | reference | 0.001357 |
+| MAD | BHD | reference | 0.038164 |
+| NOK | BHD | reference | 0.040289 |
+| NPR | BHD | reference | 0.002472 |
+| NZD | BHD | reference | 0.211188 |
+| OMR | BHD | reference | 0.976822 |
+| PHP | BHD | reference | 0.005869 |
+| PKR | BHD | reference | 0.001358 |
 | QAR | BHD | reference | 0.103167 |
-| SAR | BHD | reference | 0.100209 |
-| SGD | BHD | reference | 0.293596 |
-| THB | BHD | reference | 0.011136 |
-| TND | BHD | reference | 0.125396 |
-| TRY | BHD | reference | 0.007554 |
+| SAR | BHD | reference | 0.100191 |
+| SGD | BHD | reference | 0.293435 |
+| THB | BHD | reference | 0.011126 |
+| TND | BHD | reference | 0.125141 |
+| TRY | BHD | reference | 0.007547 |
 | USD | BHD | reference | 0.376081 |
 
 </details>
